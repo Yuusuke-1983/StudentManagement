@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+body{
+    background-color: #F5F5F5;
+}
+
+header{
+    background-color: #17184B;
+    margin: 0;
+    padding: 10px;
+}
+header h1{
+    color: #FFFFFF;
+}
+main{
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+main h1{
+    text-align: center;
+}
+
+#form{
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+form label{
+    display: block;
+    padding: 10px;
+}
+
+form input{
+    padding: 10px;
+    border: solid 1px #FFD700;
+    margin-bottom: 10px;
+}
+
+#name, #kanaName, #nickname, #area, #age, #sex{
+    width: 300px;
+}
+
+#email, #remark{
+    width: 750px;
+}
+#remark{
+    width: 750px;
+    height: 50px;
+}
+#name_box{
+    width: 400px;
+    margin-left: 50px
+}
+#kanaName_box, #nickname_box, #area_box, #age_box, #sex_box{
+    float: left;
+    width: 400px;
+    margin-left: 50px
+}
+#email_box, #remark_box{
+    clear: both;
+    width: 800px;
+    margin-left: 50px
+}
+
+form button{
+    background-color: #deb887;
+    color: #FFFFFF;
+    border: 0px none;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#button{
+    text-align: center;
+
+}
+
+#list{
+    background-color: #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+#student{
+    width: 800px;
+}
+#student tr:nth-child(even){
+    background-color: #F5F5F5;
+}
+#student thead th{
+    border: solid 1px;
+    text-align: left;
+    padding: 10px;
+    background-color: #F5EFEF;
+}
+#student tbody td{
+    border: solid 1px;
+    text-align: left;
+    padding: 10px;
+}
+
